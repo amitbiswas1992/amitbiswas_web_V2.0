@@ -1,0 +1,139 @@
+#footer{
+    box-shadow: 0 -2px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.08);
+    background-color: #fff;
+}
+.footer{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+.footer-logo-wrapper .logo{
+    width: 25px;
+    height: 25px;
+}
+.footer-logo-wrapper .footer-web-name{
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-left: 6px;
+    color: #333;
+    font-weight: 600;
+}
+
+.footer .copyright{
+    font-size: .8em;
+    margin: 0 5px;
+    color: #999;
+    font-weight: 400;
+}
+.footer-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-social-icons a{
+    width: 32px;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: .3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social-icons a:last-child{
+    margin-right: 0;
+}
+.footer-social-icons a:hover{
+    transition: .2s ease-in;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.08);
+}
+.footer-social-icons a.facebook{
+    color: #3b5998;
+}
+
+.footer-social-icons a.facebook:hover{
+    color: #fff;
+    background-color: #3b5998;
+}
+.footer-social-icons a.mail{
+    color: #B23121;
+}
+.footer-social-icons a.mail:hover{
+    color: #fff;
+    background-color: #B23121;
+}
+.footer-social-icons a.twitter{
+    color: #00acee;
+}
+.footer-social-icons a.twitter:hover{
+    color: #fff;
+    background: #00acee;
+}
+.footer-social-icons a.linkedin{
+    color: #4875B4;
+}
+.footer-social-icons a.linkedin:hover{
+    color: #fff;
+    background-color: #4875B4;
+}
+.footer-social-icons a.github{
+    color: #24292e;
+}
+.footer-social-icons a.github:hover{
+    color: #fff;
+    background-color: #24292e;
+}
+.footer-social-icons a.youtube{
+    color: #FF3333;
+}
+.footer-social-icons a.youtube:hover{
+    color: #fff;
+    background-color: #FF3333;
+}
+
+@media (max-width: 576px) {
+    .footer-logo-wrapper{
+        display: none;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .copyright{
+        order: 2;
+        margin-top: 5px;
+    }
+}
+/*@media (min-width: 576px) {*/
+/*    .my-container {*/
+/*        padding: 0 30px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+/*    .my-container {*/
+/*        padding: 0 40px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 992px) {*/
+/*    .my-container {*/
+/*        padding: 0 50px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+/*    .my-container {*/
+/*        padding: 0 60px;*/
+/*    }*/
+/*}*/
